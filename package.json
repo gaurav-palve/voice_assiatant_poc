@@ -1,0 +1,20 @@
+{
+  "name": "@micdrop/poc-monorepo",
+  "version": "1.0.0",
+  "description": "Micdrop POC - Voice-to-Voice AI Conversation",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently -n \"server,client\" -c \"blue,yellow\" \"pnpm --filter @micdrop/poc-server dev\" \"pnpm --filter @micdrop/poc-client dev\"",
+    "build": "pnpm -r build",
+    "clean": "pnpm -r clean",
+    "server": "pnpm --filter @micdrop/poc-server dev",
+    "client": "pnpm --filter @micdrop/poc-client dev"
+  },
+  "workspaces": [
+    "server",
+    "client"
+  ],
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

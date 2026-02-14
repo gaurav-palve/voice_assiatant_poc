@@ -1,0 +1,23 @@
+{
+  "name": "@micdrop/poc-client",
+  "version": "1.0.0",
+  "description": "Micdrop POC Client - Simple Voice-to-Voice UI",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@micdrop/client": "*",
+    "@micdrop/react": "*",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.26",
+    "@types/react-dom": "^18.0.10",
+    "@vitejs/plugin-react": "^5.0.2",
+    "typescript": "^5.7.3",
+    "vite": "^7.1.5"
+  }
+}

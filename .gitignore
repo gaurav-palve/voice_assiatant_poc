@@ -1,0 +1,23 @@
+# dependencies
+node_modules/
+
+# pnpm
+.pnpm-store/
+
+# build outputs
+dist/
+build/
+
+# env files
+.env
+.env.local
+.env.*.local
+
+# logs
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
